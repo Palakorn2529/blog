@@ -1,9 +1,14 @@
 /* Table of Conter */
 
 
+/* c2efeb-ecfee8-ea526f-e76b74-5c5d67  */
+
+
 /*  
 1. Section Settings
 2. Section Carousel
+3. Section Blog
+4. Section Footer
 */
 
 
@@ -59,4 +64,34 @@ body {
 .backscreen {
     background: rgba(0, 0, 0, 0.6);
     height: 100%;
+}
+
+
+/* Section Blog  */
+
+.wrapper-card-img {
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+}
+
+.wrapper-card-img img {
+    position: absolute;
+    top: 0;
+}
+
+.wrapper-card-img img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+
+/* Section Footer */
+
+.semi-footter {
+    background-color: #5c5d67;
+}
+
+.semi-footter a {
+    color: white;
 }
