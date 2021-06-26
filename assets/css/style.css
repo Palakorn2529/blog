@@ -95,3 +95,19 @@ body {
 .semi-footter a {
     color: white;
 }
+
+.semi-footter h4 {
+    color: #ecfee8;
+    border-bottom: #ecfee8 solid;
+    padding: 10px 0;
+}
+
+.footer {
+    background: #000;
+    color: white;
+    font-size: 0.7rem;
+    height: 90px;
+    line-height: 90px;
+    /*set vertical center for single line text*/
+    text-align: center;
+}
