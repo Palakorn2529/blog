@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href="assets\image\film-play-button_icon-icons.com_71195.ico">
+    <link rel="shortcut icon" href="assets/image/film-play-button_icon-icons.com_71195.ico">
     <title>About</title>
 </head>
 
 <body>
     <!-- Section Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-alpha p-0 fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-alpha p-0 fixed-top">
         <div class="container">
             <a class="navbar-brand text-white" href="#">
-                <img src="assets\image\film_reel_29305.png" class="d-inline-block" /> Movie lover
+                <img src="assets/image/film_reel_29305.png" class="d-inline-block" /> Movie lover
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarKey" aria-controls="navbarKey" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,29 +25,42 @@
 
             <div class="collapse navbar-collapse" id="navbarKey">
                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link " href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="about.html">About</a>
+                        <a class="nav-link " href="#">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact</a>
+                        <a class="nav-link " href="#">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- Section Header-->
+    <!-- data-jarallax = {"speed":0.6}-->
+    <header data-jarallax data-speed="0.6" class="page-title jarallax" style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=60');">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 font-weight-bold">เกี่ยวกับเรา</h1>
+                    <p class="lead">มาร่วมเป็นส่วนหนังของสังคมคนรักหนัง</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <!-- Section Footer-->
     <footer class="semi-footter p-3 text-center text-white text-md-left">
         <div class="row">
             <div class="col-md-4">
                 <a class="navbar-brand text-white" href="#">
-                    <img src="assets\image\film_reel_29305.png" class="d-inline-block" /> Movie lover
+                    <img src="assets/image/film_reel_29305.png" class="d-inline-block" /> Movie lover
                 </a>
                 <p>
                     <i class="fas fa-mobile-alt"></i> 092-342-8529<br>
@@ -87,7 +100,9 @@
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd\popper.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules\jarallax\dist\jarallax.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
